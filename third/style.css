@@ -1,0 +1,96 @@
+<style>
+
+    .header, .main, .nav, .footer {
+        flex: 1 100%;
+    }
+
+     .nav {
+        background: #333;
+        width: 100%;
+        color: #fff;
+        display: inline-flex;
+        justify-content: flex-end;
+        flex-direction: row;
+
+    }
+
+    .button {
+        padding: 1em;
+    }
+
+    .header {
+        text-align: left;
+        background-color: #d3d3d3;
+        padding: .1em;
+    }
+    .main {
+        background: #d3d3d3;
+
+    }
+
+    .header h1 {
+        margin-left: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+        font-family: arial;
+
+    }
+
+    p {
+        font-size: 1em;
+        font-family: arial;
+        margin-left: 10px;
+        padding: .2em;
+
+    }
+
+
+
+    main {
+        background: #333;
+        width: 100%;
+        color: #fff;
+        display: inline-flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .box {
+        background: #d3d3d3;
+        width: 100%;
+        color: #333;
+        display: inline-flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .box p {
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .text {
+        font-size: 1em;
+        font-family: arial;
+    }
+
+    img {
+        height: 150px;
+        width: 200px;
+        background-color: white;
+        margin-top: 18px;
+    }
+
+    footer {
+        background: #333;
+        width: 100%;
+        color: #fff;
+        display: inline-flex;
+        justify-content: flex-end;
+        flex-direction: row;
+
+    }
+
+</style>
